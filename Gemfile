@@ -57,5 +57,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem :production do
   #Add Postgres gem for Heroku
-  gem 'pg', '~> 1.4', '>= 1.4.1'
+  gem 'pg', '~> 1.4' 
 end
